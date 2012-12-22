@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107079BC14000FF100BAE2FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107079BB14000FF100BAE2FE /* UIKit.framework */; };
+		107079BE14000FF100BAE2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107079BD14000FF100BAE2FE /* Foundation.framework */; };
+		107079C014000FF100BAE2FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107079BF14000FF100BAE2FE /* CoreGraphics.framework */; };
+		107079C614000FF100BAE2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 107079C414000FF100BAE2FE /* InfoPlist.strings */; };
+		107079C914000FF200BAE2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 107079C814000FF200BAE2FE /* main.m */; };
+		107079CC14000FF200BAE2FE /* TableCellSizeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 107079CB14000FF200BAE2FE /* TableCellSizeAppDelegate.m */; };
+		107079CF14000FF200BAE2FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107079CD14000FF200BAE2FE /* MainWindow.xib */; };
+		107079D214000FF200BAE2FE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107079D114000FF200BAE2FE /* RootViewController.m */; };
+		107079D514000FF300BAE2FE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107079D314000FF300BAE2FE /* RootViewController.xib */; };
+		107079DC14000FF300BAE2FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107079BB14000FF100BAE2FE /* UIKit.framework */; };
+		107079DD14000FF300BAE2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107079BD14000FF100BAE2FE /* Foundation.framework */; };
+		107079DE14000FF300BAE2FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107079BF14000FF100BAE2FE /* CoreGraphics.framework */; };
+		107079E614000FF300BAE2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 107079E414000FF300BAE2FE /* InfoPlist.strings */; };
+		107079E914000FF300BAE2FE /* TableCellSizeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 107079E814000FF300BAE2FE /* TableCellSizeTests.h */; };
+		107079EB14000FF300BAE2FE /* TableCellSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107079EA14000FF300BAE2FE /* TableCellSizeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		107079DF14000FF300BAE2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107079AE14000FF100BAE2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107079B614000FF100BAE2FE;
+			remoteInfo = TableCellSize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107079B714000FF100BAE2FE /* TableCellSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableCellSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		107079BB14000FF100BAE2FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		107079BD14000FF100BAE2FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		107079BF14000FF100BAE2FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		107079C314000FF100BAE2FE /* TableCellSize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableCellSize-Info.plist"; sourceTree = "<group>"; };
+		107079C514000FF100BAE2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		107079C714000FF200BAE2FE /* TableCellSize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableCellSize-Prefix.pch"; sourceTree = "<group>"; };
+		107079C814000FF200BAE2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		107079CA14000FF200BAE2FE /* TableCellSizeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellSizeAppDelegate.h; sourceTree = "<group>"; };
+		107079CB14000FF200BAE2FE /* TableCellSizeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellSizeAppDelegate.m; sourceTree = "<group>"; };
+		107079CE14000FF200BAE2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		107079D014000FF200BAE2FE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		107079D114000FF200BAE2FE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		107079D414000FF300BAE2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		107079DB14000FF300BAE2FE /* TableCellSizeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellSizeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107079E314000FF300BAE2FE /* TableCellSizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableCellSizeTests-Info.plist"; sourceTree = "<group>"; };
+		107079E514000FF300BAE2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		107079E714000FF300BAE2FE /* TableCellSizeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableCellSizeTests-Prefix.pch"; sourceTree = "<group>"; };
+		107079E814000FF300BAE2FE /* TableCellSizeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellSizeTests.h; sourceTree = "<group>"; };
+		107079EA14000FF300BAE2FE /* TableCellSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellSizeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107079B414000FF100BAE2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107079BC14000FF100BAE2FE /* UIKit.framework in Frameworks */,
+				107079BE14000FF100BAE2FE /* Foundation.framework in Frameworks */,
+				107079C014000FF100BAE2FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107079D714000FF300BAE2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107079DC14000FF300BAE2FE /* UIKit.framework in Frameworks */,
+				107079DD14000FF300BAE2FE /* Foundation.framework in Frameworks */,
+				107079DE14000FF300BAE2FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107079AC14000FF000BAE2FE = {
+			isa = PBXGroup;
+			children = (
+				107079C114000FF100BAE2FE /* TableCellSize */,
+				107079E114000FF300BAE2FE /* TableCellSizeTests */,
+				107079BA14000FF100BAE2FE /* Frameworks */,
+				107079B814000FF100BAE2FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107079B814000FF100BAE2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107079B714000FF100BAE2FE /* TableCellSize.app */,
+				107079DB14000FF300BAE2FE /* TableCellSizeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107079BA14000FF100BAE2FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				107079BB14000FF100BAE2FE /* UIKit.framework */,
+				107079BD14000FF100BAE2FE /* Foundation.framework */,
+				107079BF14000FF100BAE2FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		107079C114000FF100BAE2FE /* TableCellSize */ = {
+			isa = PBXGroup;
+			children = (
+				107079CA14000FF200BAE2FE /* TableCellSizeAppDelegate.h */,
+				107079CB14000FF200BAE2FE /* TableCellSizeAppDelegate.m */,
+				107079CD14000FF200BAE2FE /* MainWindow.xib */,
+				107079D014000FF200BAE2FE /* RootViewController.h */,
+				107079D114000FF200BAE2FE /* RootViewController.m */,
+				107079D314000FF300BAE2FE /* RootViewController.xib */,
+				107079C214000FF100BAE2FE /* Supporting Files */,
+			);
+			path = TableCellSize;
+			sourceTree = "<group>";
+		};
+		107079C214000FF100BAE2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107079C314000FF100BAE2FE /* TableCellSize-Info.plist */,
+				107079C414000FF100BAE2FE /* InfoPlist.strings */,
+				107079C714000FF200BAE2FE /* TableCellSize-Prefix.pch */,
+				107079C814000FF200BAE2FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107079E114000FF300BAE2FE /* TableCellSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				107079E814000FF300BAE2FE /* TableCellSizeTests.h */,
+				107079EA14000FF300BAE2FE /* TableCellSizeTests.m */,
+				107079E214000FF300BAE2FE /* Supporting Files */,
+			);
+			path = TableCellSizeTests;
+			sourceTree = "<group>";
+		};
+		107079E214000FF300BAE2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107079E314000FF300BAE2FE /* TableCellSizeTests-Info.plist */,
+				107079E414000FF300BAE2FE /* InfoPlist.strings */,
+				107079E714000FF300BAE2FE /* TableCellSizeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107079B614000FF100BAE2FE /* TableCellSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107079EE14000FF300BAE2FE /* Build configuration list for PBXNativeTarget "TableCellSize" */;
+			buildPhases = (
+				107079B314000FF100BAE2FE /* Sources */,
+				107079B414000FF100BAE2FE /* Frameworks */,
+				107079B514000FF100BAE2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableCellSize;
+			productName = TableCellSize;
+			productReference = 107079B714000FF100BAE2FE /* TableCellSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		107079DA14000FF300BAE2FE /* TableCellSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107079F114000FF300BAE2FE /* Build configuration list for PBXNativeTarget "TableCellSizeTests" */;
+			buildPhases = (
+				107079D614000FF300BAE2FE /* Sources */,
+				107079D714000FF300BAE2FE /* Frameworks */,
+				107079D814000FF300BAE2FE /* Resources */,
+				107079D914000FF300BAE2FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107079E014000FF300BAE2FE /* PBXTargetDependency */,
+			);
+			name = TableCellSizeTests;
+			productName = TableCellSizeTests;
+			productReference = 107079DB14000FF300BAE2FE /* TableCellSizeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107079AE14000FF100BAE2FE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 107079B114000FF100BAE2FE /* Build configuration list for PBXProject "TableCellSize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 107079AC14000FF000BAE2FE;
+			productRefGroup = 107079B814000FF100BAE2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107079B614000FF100BAE2FE /* TableCellSize */,
+				107079DA14000FF300BAE2FE /* TableCellSizeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107079B514000FF100BAE2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107079C614000FF100BAE2FE /* InfoPlist.strings in Resources */,
+				107079CF14000FF200BAE2FE /* MainWindow.xib in Resources */,
+				107079D514000FF300BAE2FE /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107079D814000FF300BAE2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107079E614000FF300BAE2FE /* InfoPlist.strings in Resources */,
+				107079E914000FF300BAE2FE /* TableCellSizeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107079D914000FF300BAE2FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107079B314000FF100BAE2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107079C914000FF200BAE2FE /* main.m in Sources */,
+				107079CC14000FF200BAE2FE /* TableCellSizeAppDelegate.m in Sources */,
+				107079D214000FF200BAE2FE /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107079D614000FF300BAE2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107079EB14000FF300BAE2FE /* TableCellSizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107079E014000FF300BAE2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107079B614000FF100BAE2FE /* TableCellSize */;
+			targetProxy = 107079DF14000FF300BAE2FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107079C414000FF100BAE2FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107079C514000FF100BAE2FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		107079CD14000FF200BAE2FE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107079CE14000FF200BAE2FE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		107079D314000FF300BAE2FE /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107079D414000FF300BAE2FE /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		107079E414000FF300BAE2FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107079E514000FF300BAE2FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107079EC14000FF300BAE2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		107079ED14000FF300BAE2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		107079EF14000FF300BAE2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableCellSize/TableCellSize-Prefix.pch";
+				INFOPLIST_FILE = "TableCellSize/TableCellSize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		107079F014000FF300BAE2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableCellSize/TableCellSize-Prefix.pch";
+				INFOPLIST_FILE = "TableCellSize/TableCellSize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		107079F214000FF300BAE2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableCellSize.app/TableCellSize";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableCellSizeTests/TableCellSizeTests-Prefix.pch";
+				INFOPLIST_FILE = "TableCellSizeTests/TableCellSizeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		107079F314000FF300BAE2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableCellSize.app/TableCellSize";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableCellSizeTests/TableCellSizeTests-Prefix.pch";
+				INFOPLIST_FILE = "TableCellSizeTests/TableCellSizeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107079B114000FF100BAE2FE /* Build configuration list for PBXProject "TableCellSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107079EC14000FF300BAE2FE /* Debug */,
+				107079ED14000FF300BAE2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107079EE14000FF300BAE2FE /* Build configuration list for PBXNativeTarget "TableCellSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107079EF14000FF300BAE2FE /* Debug */,
+				107079F014000FF300BAE2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107079F114000FF300BAE2FE /* Build configuration list for PBXNativeTarget "TableCellSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107079F214000FF300BAE2FE /* Debug */,
+				107079F314000FF300BAE2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 107079AE14000FF100BAE2FE /* Project object */;
+}
